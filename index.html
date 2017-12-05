@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<!-- all html starts with an html tag -- anything inside the angle brackets is a tag that helps the browser define an html element-->
+<html>
+  <!-- there are 2 sections that help define the content <head> and <body> -->
+  
+<head>
+    <!-- in the head we link to a CSS stylesheet, the javascript libraries of P5 and our p5 sketch (which creates a canvas element for us) we can also give the page a title that appears in the tab region of the web page -->
+    <title>p5</title>
+    <link rel="stylesheet" type="text/css" href="../mystyle.css">
+    <script src="../p5.min.js"></script>
+    <script src="../addons/p5.dom.min.js"></script>
+    <script src="../addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>    
+</head>
+    <!-- the body organized the main content and I am using HTML5 semantics - a header, navigation and a figure (for our image)-->
+<body>
+    <!-- you can change the word inside of the header -- the dark gray bar at top of page and you can change any of the text that is black in Brackets-->
+    <header>
+	  <h1>Final Project</h1> 
+    </header>
+ 
+   <!-- this builds the horizontal navigation below the gray header--> 
+
+    <naviagation>
+    <!-- ul is an unordered list and li is an item in the list--><!-- id are identifiers that will be styled through my css-->
+        <ul id="navlist">
+            <li><a href="../home/index.html">HOME</a></li>
+          <li id="active" ><a href="../final/index.html" id = "current">name of final project</a></li>
+        </ul> 
+    </naviagation>
+      
+    <!-- the html5 figure tag (container) has an identifier sketch which is styled by css #sketch -->
+    <figure id = "sketch"> </figure>
+   <!--the tags below close the body and the html-->   
+    </body>
+</html>
+      
+      
+      
+
+
